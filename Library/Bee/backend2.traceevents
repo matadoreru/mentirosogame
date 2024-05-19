@@ -1,0 +1,169 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1716083219211435, "dur":19880, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716083219231326, "dur":1277, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716083219232662, "dur":278, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716083219233066, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1716083219233628, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":0, "ts":1716083219233821, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716083219234089, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716083219234211, "dur":138, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716083219234625, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716083219234860, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716083219235051, "dur":129, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716083219235362, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716083219235609, "dur":107, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716083219235939, "dur":110, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716083219236127, "dur":107, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1716083219236445, "dur":101, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1716083219236655, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1716083219237005, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1716083219237250, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1716083219237437, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1716083219237590, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1716083219237793, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":0, "ts":1716083219237896, "dur":239, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1716083219232967, "dur":5528, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716083219238499, "dur":119762, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716083219358262, "dur":118, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716083219358380, "dur":90, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716083219358564, "dur":2049, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1716083219233362, "dur":5233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716083219238599, "dur":540, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716083219239140, "dur":440, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716083219239580, "dur":4358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716083219243938, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1716083219244322, "dur":7005, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1716083219244321, "dur":7008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1716083219251385, "dur":20060, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1716083219251384, "dur":20063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1716083219271494, "dur":86746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716083219233436, "dur":5230, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716083219238670, "dur":582, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716083219239253, "dur":4786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716083219244040, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1716083219244189, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Programas\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1716083219244147, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1716083219244248, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716083219244341, "dur":7394, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1716083219244340, "dur":7397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1716083219251788, "dur":17059, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1716083219251786, "dur":17064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1716083219268885, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1716083219269830, "dur":88436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716083219233358, "dur":5285, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716083219238648, "dur":558, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716083219239206, "dur":4712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716083219243923, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716083219244329, "dur":7763, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1716083219244327, "dur":7767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1716083219252777, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716083219253534, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716083219255563, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Programas\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1716083219255562, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1716083219255785, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716083219256121, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716083219256509, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716083219258721, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1716083219260047, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1716083219261282, "dur":3400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1716083219264722, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1716083219266040, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1716083219266893, "dur":91363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716083219233344, "dur":5239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716083219238586, "dur":559, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716083219239146, "dur":78, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716083219239225, "dur":4712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716083219243938, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716083219244277, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1716083219244276, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso.exe" }}
+,{ "pid":12345, "tid":4, "ts":1716083219244345, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716083219244423, "dur":6691, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1716083219244422, "dur":6694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1716083219251162, "dur":17803, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1716083219251161, "dur":17806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1716083219269014, "dur":89224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716083219233320, "dur":5253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716083219238579, "dur":5332, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716083219245258, "dur":439, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":5, "ts":1716083219245701, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1716083219245773, "dur":3658, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1716083219249434, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1716083219249765, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219249921, "dur":525, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219250448, "dur":260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219250709, "dur":354, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219251065, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219251143, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219251266, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219251427, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219251570, "dur":169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219251741, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219251835, "dur":351, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219252187, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716083219245700, "dur":6789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1716083219252765, "dur":93, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716083219253177, "dur":101306, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1716083219357245, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1716083219357244, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1716083219357348, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1716083219233384, "dur":5273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716083219238662, "dur":537, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716083219239200, "dur":5090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716083219244291, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1716083219244406, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716083219244474, "dur":6645, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1716083219244467, "dur":6654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1716083219251171, "dur":8103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1716083219251169, "dur":8107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1716083219259333, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1716083219261078, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1716083219262096, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1716083219263076, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1716083219264004, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1716083219264927, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1716083219267314, "dur":90934, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219233478, "dur":5199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219238681, "dur":576, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219239257, "dur":4881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219244208, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1716083219244486, "dur":9834, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1716083219244485, "dur":9836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1716083219254361, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Programas\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1716083219254360, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1716083219254490, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219254547, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Programas\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1716083219254545, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1716083219254645, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219254725, "dur":666, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Programas\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1716083219254723, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1716083219255434, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Programas\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1716083219255432, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1716083219256686, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219256756, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219257002, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219257104, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219257168, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716083219258702, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1716083219260550, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1716083219261496, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1716083219264702, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1716083219266190, "dur":92072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716083219233514, "dur":5176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716083219238691, "dur":544, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716083219239235, "dur":4802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716083219244045, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Programas\\2022.3.24f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1716083219244038, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1716083219244359, "dur":6737, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1716083219244358, "dur":6740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1716083219251158, "dur":7177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Hortensi\\Documents\\UnityProjects\\Mentiroso\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1716083219251156, "dur":7181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1716083219258338, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716083219258657, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1716083219260175, "dur":2085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1716083219262315, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1716083219263421, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1716083219264665, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1716083219265961, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Hortensi/Desktop/Projects/mentirosoBuild/Mentiroso_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1716083219266795, "dur":91442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716083219363566, "dur":877, "ph":"X", "name": "ProfilerWriteOutput" }
+,
