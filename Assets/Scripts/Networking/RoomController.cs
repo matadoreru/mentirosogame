@@ -15,12 +15,11 @@ public class RoomController : MonoBehaviourPunCallbacks
 
     [SerializeField] TMP_InputField inputCode;
     [SerializeField] TMP_InputField username;
-    [SerializeField] TMP_Text errorText; // usar para mostrar errores
+    [SerializeField] TMP_Text roomCodeText;
+    [SerializeField] TMP_Text errorText;
     [SerializeField] Button startButton;
-    [SerializeField] Transform playerCardContainer;
-    [SerializeField] GameObject playerCardPrefab;
 
-    private Dictionary<Player, GameObject> playerCards = new Dictionary<Player, GameObject>();
+    private string roomCode;
 
     public void CreateRoom()
     {
@@ -29,9 +28,9 @@ public class RoomController : MonoBehaviourPunCallbacks
             return;
         }
 
-        string roomCode = GenerateRandomString(5);
+        roomCode = GenerateRandomString(5);
 
-        PhotonNetwork.CreateRoom(roomCode);
+        PhotonNetwork.CreateRoom("H");
     }
 
     public void JoinRoom()
@@ -41,7 +40,7 @@ public class RoomController : MonoBehaviourPunCallbacks
             return;
         }
 
-        PhotonNetwork.JoinRoom(inputCode.text);
+        PhotonNetwork.JoinRoom(inputCode.text.ToUpper());
     }
 
     private string GenerateRandomString(int length)
@@ -61,44 +60,25 @@ public class RoomController : MonoBehaviourPunCallbacks
     {
         panelLobby.SetActive(false);
         panelRoom.SetActive(true);
-        UpdatePlayers();
+        roomCodeText.text = "Room code: " + "H";
+        PlayerLobbyManager.Instance.UpdatePlayers();
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
         Debug.Log("Player entered room: " + newPlayer.UserId);
-        UpdatePlayers();
+        PlayerLobbyManager.Instance.UpdatePlayers();
     }
 
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
         Debug.Log("Player left room: " + otherPlayer.UserId);
-        UpdatePlayers();
-    }
-
-    private void UpdatePlayers()
-    {
-        foreach (KeyValuePair<Player, GameObject> playerCard in playerCards)
-        {
-            Destroy(playerCard.Value);
-        }
-        playerCards.Clear();
-
-        if (PhotonNetwork.CurrentRoom == null)
-        {
-            return;
-        }
-
-        foreach (Player player in PhotonNetwork.CurrentRoom.Players.Values)
-        {
-            GameObject card = Instantiate(playerCardPrefab, playerCardContainer);
-            playerCards.Add(player, card);
-        }
+        PlayerLobbyManager.Instance.UpdatePlayers();
     }
 
     private void Update()
     {
-        if (!PhotonNetwork.IsMasterClient || PhotonNetwork.CurrentRoom.PlayerCount < 2)
+        if (!PhotonNetwork.IsMasterClient || PhotonNetwork.CurrentRoom.PlayerCount < 1)
         {
             startButton.interactable = false;
             return;
@@ -109,5 +89,30 @@ public class RoomController : MonoBehaviourPunCallbacks
     public void StartGame()
     {
         SceneLoader.LoadScene(SceneNames.Game);
+    }
+
+    public void ExitLobbyRoom()
+    {
+        if(panelLobby.activeSelf)
+        {
+            PhotonNetwork.LeaveLobby();
+        }
+        if(panelRoom.activeSelf)
+        {
+            PhotonNetwork.LeaveRoom();
+        }
+    }
+
+
+    public override void OnLeftLobby()
+    {
+        PhotonNetwork.Disconnect();
+        SceneLoader.LoadScene(SceneNames.MainMenu);
+    }
+
+    public override void OnLeftRoom()
+    {
+        PhotonNetwork.Disconnect();
+        SceneLoader.LoadScene(SceneNames.MainMenu);
     }
 }

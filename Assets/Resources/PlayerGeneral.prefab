@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5492747817054214607}
   - component: {fileID: 5646040445330038932}
   - component: {fileID: 7142702321081972742}
+  - component: {fileID: 6758068086182162335}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -111,6 +112,20 @@ MonoBehaviour:
   minZoomDistance: 2
   maxZoomDistance: 50
   yCoordinateLimit: 30
+--- !u!114 &6758068086182162335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3894273940571859571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d13a0489efed954b948ccecad921845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 5492747817054214607}
+  playerAudioListener: {fileID: 5646040445330038932}
 --- !u!1 &5405601449865345527
 GameObject:
   m_ObjectHideFlags: 0

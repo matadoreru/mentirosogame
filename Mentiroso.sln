@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonChat", "PhotonChat.csproj", "{F7C23157-D527-CF2A-3DED-5D47A34DE287}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Demos", "PhotonUnityNetworking.Demos.csproj", "{0398938C-BF64-B834-1A17-A08ABC9EE278}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E19135B0-EF6D-6E9F-3BBE-8B8033C318C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Demos", "PhotonUnityNetworking.Demos.csproj", "{0398938C-BF64-B834-1A17-A08ABC9EE278}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonRealtime", "PhotonRealtime.csproj", "{6545B0F9-8F5F-98B2-2AC4-F2582389A387}"
 EndProject
@@ -35,14 +35,14 @@ Global
 		{F7C23157-D527-CF2A-3DED-5D47A34DE287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C23157-D527-CF2A-3DED-5D47A34DE287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C23157-D527-CF2A-3DED-5D47A34DE287}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0398938C-BF64-B834-1A17-A08ABC9EE278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0398938C-BF64-B834-1A17-A08ABC9EE278}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0398938C-BF64-B834-1A17-A08ABC9EE278}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0398938C-BF64-B834-1A17-A08ABC9EE278}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E19135B0-EF6D-6E9F-3BBE-8B8033C318C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E19135B0-EF6D-6E9F-3BBE-8B8033C318C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E19135B0-EF6D-6E9F-3BBE-8B8033C318C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E19135B0-EF6D-6E9F-3BBE-8B8033C318C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0398938C-BF64-B834-1A17-A08ABC9EE278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0398938C-BF64-B834-1A17-A08ABC9EE278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0398938C-BF64-B834-1A17-A08ABC9EE278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0398938C-BF64-B834-1A17-A08ABC9EE278}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6545B0F9-8F5F-98B2-2AC4-F2582389A387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6545B0F9-8F5F-98B2-2AC4-F2582389A387}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6545B0F9-8F5F-98B2-2AC4-F2582389A387}.Release|Any CPU.ActiveCfg = Release|Any CPU
