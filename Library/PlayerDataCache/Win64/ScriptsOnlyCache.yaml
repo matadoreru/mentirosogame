@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - CardVisibility
     - ChangeReadyCheck
     - PlayerCard
+    - PlayerCards
     - PlayerSetup
     Assembly-CSharp.dll:
     - CameraController
@@ -15,11 +16,12 @@ ScriptsOnlyBuild:
     - InputFieldValidator
     - MainMenuController
     - PlayerCard
+    - PlayerCards
     - PlayerLobbyManager
-    - PlayerSeats
     - PlayerSetup
     - RoomController
     - SpawnDecks
+    - SpawnPlayerSeats
     - SpawnPlayers
     PhotonUnityNetworking:
     - Photon.Pun.PhotonAnimatorView
@@ -160,6 +162,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: RoomController
     methodName: CreateRoom
+  - assembly: Assembly-CSharp
+    fullTypeName: SpawnDecks
+    methodName: SpawnCards
+  - assembly: Assembly-CSharp
+    fullTypeName: DeckManager
+    methodName: InitializeDeck
+  - assembly: Assembly-CSharp
+    fullTypeName: DeckManager
+    methodName: ShuffleAndDistribute
   sceneClasses:
     Assets/Scenes/Game.unity:
     - Class: 1
@@ -191,7 +202,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1636}
+      Script: {instanceID: 1574}
+    - Class: 114
+      Script: {instanceID: 1628}
     - Class: 114
       Script: {instanceID: 1928}
     - Class: 114
@@ -203,19 +216,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3132}
     - Class: 114
-      Script: {instanceID: 5900}
+      Script: {instanceID: 5310}
     - Class: 114
-      Script: {instanceID: 6102}
+      Script: {instanceID: 5796}
     - Class: 114
-      Script: {instanceID: 6222}
+      Script: {instanceID: 5906}
     - Class: 114
-      Script: {instanceID: 6386}
+      Script: {instanceID: 6060}
     - Class: 114
-      Script: {instanceID: 29670}
+      Script: {instanceID: 6108}
     - Class: 114
-      Script: {instanceID: 38638}
+      Script: {instanceID: 6392}
     - Class: 114
-      Script: {instanceID: 39134}
+      Script: {instanceID: 7168}
+    - Class: 114
+      Script: {instanceID: 45176}
+    - Class: 114
+      Script: {instanceID: 45180}
+    - Class: 114
+      Script: {instanceID: 45370}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -225,6 +244,8 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
@@ -256,15 +277,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 5306}
+      Script: {instanceID: 5310}
     - Class: 114
-      Script: {instanceID: 5654}
+      Script: {instanceID: 5658}
     - Class: 114
-      Script: {instanceID: 5900}
+      Script: {instanceID: 5906}
     - Class: 114
-      Script: {instanceID: 6054}
+      Script: {instanceID: 6060}
     - Class: 114
-      Script: {instanceID: 6386}
+      Script: {instanceID: 6392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -315,25 +336,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 4954}
-    - Class: 114
-      Script: {instanceID: 5104}
+      Script: {instanceID: 4958}
     - Class: 114
       Script: {instanceID: 5108}
     - Class: 114
-      Script: {instanceID: 5306}
+      Script: {instanceID: 5112}
     - Class: 114
-      Script: {instanceID: 5758}
+      Script: {instanceID: 5310}
     - Class: 114
-      Script: {instanceID: 5784}
+      Script: {instanceID: 5762}
     - Class: 114
-      Script: {instanceID: 5900}
+      Script: {instanceID: 5788}
     - Class: 114
-      Script: {instanceID: 6054}
+      Script: {instanceID: 5906}
     - Class: 114
-      Script: {instanceID: 6386}
+      Script: {instanceID: 6060}
     - Class: 114
-      Script: {instanceID: 7822}
+      Script: {instanceID: 6392}
+    - Class: 114
+      Script: {instanceID: 7830}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -428,43 +449,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4546}
     - Class: 114
-      Script: {instanceID: 5232}
+      Script: {instanceID: 4682}
     - Class: 114
-      Script: {instanceID: 5248}
+      Script: {instanceID: 5236}
     - Class: 114
-      Script: {instanceID: 5306}
+      Script: {instanceID: 5252}
     - Class: 114
-      Script: {instanceID: 5434}
+      Script: {instanceID: 5310}
     - Class: 114
-      Script: {instanceID: 5660}
+      Script: {instanceID: 5438}
     - Class: 114
-      Script: {instanceID: 5702}
+      Script: {instanceID: 5664}
     - Class: 114
-      Script: {instanceID: 5784}
+      Script: {instanceID: 5706}
     - Class: 114
-      Script: {instanceID: 5900}
+      Script: {instanceID: 5788}
     - Class: 114
-      Script: {instanceID: 6054}
+      Script: {instanceID: 5906}
     - Class: 114
-      Script: {instanceID: 6102}
+      Script: {instanceID: 6060}
     - Class: 114
-      Script: {instanceID: 6386}
+      Script: {instanceID: 6108}
     - Class: 114
-      Script: {instanceID: 6394}
+      Script: {instanceID: 6392}
     - Class: 114
-      Script: {instanceID: 6988}
+      Script: {instanceID: 6400}
     - Class: 114
-      Script: {instanceID: 7508}
+      Script: {instanceID: 6994}
     - Class: 114
-      Script: {instanceID: 7822}
+      Script: {instanceID: 7516}
     - Class: 114
-      Script: {instanceID: 7866}
+      Script: {instanceID: 7830}
     - Class: 114
-      Script: {instanceID: 7994}
+      Script: {instanceID: 7874}
     - Class: 114
-      Script: {instanceID: 8296}
+      Script: {instanceID: 8002}
     - Class: 114
-      Script: {instanceID: 38638}
+      Script: {instanceID: 8304}
+    - Class: 114
+      Script: {instanceID: 45370}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -558,12 +581,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: efbddb3015adaf12a45c2bad27f564c2
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SpawnPlayers
   - hash:
       serializedVersion: 2
       Hash: bebf7fce7f1604e6c4a70f641041136d
@@ -1400,6 +1417,12 @@ ScriptsOnlyBuild:
     className: LoadLevelUIForm
   - hash:
       serializedVersion: 2
+      Hash: 066b868f4be9889ef2e88134254f4996
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CardVisibility
+  - hash:
+      serializedVersion: 2
       Hash: 2d74b1fefb4705bd1e733657623e6fb3
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -1772,6 +1795,12 @@ ScriptsOnlyBuild:
     className: ChangeReadyCheck
   - hash:
       serializedVersion: 2
+      Hash: 19ac85860ef44ac3ab39e75fefdbc606
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpawnDecks
+  - hash:
+      serializedVersion: 2
       Hash: 35e0b31791c377513b6fc7b9568c50cd
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -1842,12 +1871,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.Cockpit
     className: PunCockpit
-  - hash:
-      serializedVersion: 2
-      Hash: 5409f341a34d77c075256c776fe56c07
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerSeats
   - hash:
       serializedVersion: 2
       Hash: da5a949a0bbd2ff91bc51c5805c2c41f
@@ -2148,6 +2171,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities
     namespaceName: Photon.Pun.UtilityScripts
     className: TextToggleIsOnTransition
+  - hash:
+      serializedVersion: 2
+      Hash: 52516c133af6dc799d2f70e2d65c6926
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DeckManager
   - hash:
       serializedVersion: 2
       Hash: a89b0448af4e1cd103a77f9fec0a961f
@@ -2498,22 +2527,22 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 19ac85860ef44ac3ab39e75fefdbc606
+      Hash: efbddb3015adaf12a45c2bad27f564c2
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: SpawnDecks
+    className: SpawnPlayers
   - hash:
       serializedVersion: 2
-      Hash: 066b868f4be9889ef2e88134254f4996
+      Hash: 3e6925c17f8e7633519c70f2b5c5ac18
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: CardVisibility
+    className: SpawnPlayerSeats
   - hash:
       serializedVersion: 2
-      Hash: 52516c133af6dc799d2f70e2d65c6926
+      Hash: 42e007814267f8a5052040ffc779645f
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: DeckManager
+    className: PlayerCards
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

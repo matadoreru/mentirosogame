@@ -10,6 +10,7 @@ public class PlayerSetup : MonoBehaviourPun
 
     public void Awake()
     {
+        this.gameObject.name = "Player" + photonView.Owner.ActorNumber;
         if (photonView.IsMine)
         {
             playerCamera.enabled = true;

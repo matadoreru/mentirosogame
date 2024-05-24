@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
-public class CardVisibility : MonoBehaviour
+public class CardVisibility : MonoBehaviourPun
 {
     public GameObject backPrefab;
     private GameObject currentPrefab;
@@ -13,12 +13,16 @@ public class CardVisibility : MonoBehaviour
     [PunRPC]
     public void AssignCardToPlayer(int playerId, string cardName)
     {
-        Debug.Log("Assign player a card: " + playerId);
-        UpdateCardVisibility(CalculatePath(cardName));
+        playerIdOwnder = playerId;
+        photonView.RPC("UpdateCardVisibility", RpcTarget.All, cardName);
     }
 
-    private void UpdateCardVisibility(string cardPath)
+    [PunRPC]
+    public void UpdateCardVisibility(string cardName)
     {
+        Debug.Log("Update Card Visibility: " + cardName);
+        string cardPath = CalculatePath(cardName);
+
         GameObject parentObject = GameObject.Find("Decks");
         Vector3 positionCard = this.gameObject.transform.position;
 
@@ -39,8 +43,6 @@ public class CardVisibility : MonoBehaviour
     private string CalculatePath(string cardName)
     {
         cardName = cardName.Replace("(Clone)", "");
-        Debug.Log("Card name: " + cardName);
-        Debug.Log("Card Index 0: " + cardName[0]);
         string returnPath;
 
         if (cardName[0] == 'H')
@@ -59,7 +61,6 @@ public class CardVisibility : MonoBehaviour
         {
             returnPath = "Deck/Clubs/" + cardName;
         }
-        Debug.Log("Card path: " + returnPath);
 
         return returnPath;
     }

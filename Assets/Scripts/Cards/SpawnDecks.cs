@@ -8,31 +8,35 @@ public class SpawnDecks : MonoBehaviour
     public GameObject cardPrefab;
     public Transform spawnPoint;
 
-    private string[] suits = { "Hearts", "Spades", "Diamond", "Clubs" };
-    private string[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
+    // private string[] suits = { "Hearts", "Spades", "Diamond", "Clubs" };
+    private string[] suits = { "Clubs" };
 
-    void Start()
+    private string[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "A" };
+
+    public void SpawnCards()
     {
         if (PhotonNetwork.IsMasterClient)
         {
-            GameObject parentObject = GameObject.Find("Decks");
+            GameObject parentDeck = GameObject.Find("Decks");
 
-            if (parentObject != null)
+            if (parentDeck != null)
             {
                 foreach (string suit in suits)
                 {
                     foreach (string rank in ranks)
                     {
                         string cardName = suit + rank;
-                        GameObject cardInstance = PhotonNetwork.Instantiate("Deck/" + suit + "/" + cardName, spawnPoint.position, Quaternion.identity);
-                        cardInstance.transform.SetParent(parentObject.transform);
+                        Vector3 spawnPosition = spawnPoint.position;
+                        GameObject cardInstance = PhotonNetwork.Instantiate("Deck/" + suit + "/" + cardName, spawnPosition, Quaternion.identity);
+                        cardInstance.transform.SetParent(parentDeck.transform);
                     }
                 }
             }
             else
             {
-                Debug.LogError("No se encontr? el GameObject padre");
+                Debug.LogError("No se encontro el GameObject padre");
             }
         }
     }
+
 }
